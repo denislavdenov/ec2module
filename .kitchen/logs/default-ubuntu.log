@@ -1,0 +1,42 @@
+I, [2018-10-11T14:21:04.950324 #24900]  INFO -- default-ubuntu: -----> Destroying <default-ubuntu>...
+W, [2018-10-11T14:21:04.951183 #24900]  WARN -- default-ubuntu: Running command `terraform init -input=false -lock=true -lock-timeout=0s  -force-copy -backend=true  -get=true -get-plugins=true  -verify-plugins=true` in directory /Users/denislavdenov/Downloads/ec2module
+I, [2018-10-11T14:21:04.991193 #24900]  INFO -- default-ubuntu: [0m[1mInitializing modules...[0m
+I, [2018-10-11T14:21:04.992208 #24900]  INFO -- default-ubuntu: - module.servers
+I, [2018-10-11T14:21:04.993793 #24900]  INFO -- default-ubuntu: - module.servers.randomname
+I, [2018-10-11T14:21:05.001294 #24900]  INFO -- default-ubuntu: 
+I, [2018-10-11T14:21:05.001381 #24900]  INFO -- default-ubuntu: [0m[1mInitializing provider plugins...[0m
+I, [2018-10-11T14:21:05.355897 #24900]  INFO -- default-ubuntu: 
+I, [2018-10-11T14:21:05.356090 #24900]  INFO -- default-ubuntu: The following providers do not have any version constraints in configuration,
+I, [2018-10-11T14:21:05.356147 #24900]  INFO -- default-ubuntu: so the latest version was installed.
+I, [2018-10-11T14:21:05.356255 #24900]  INFO -- default-ubuntu: 
+I, [2018-10-11T14:21:05.356294 #24900]  INFO -- default-ubuntu: To prevent automatic upgrades to new major versions that may contain breaking
+I, [2018-10-11T14:21:05.356387 #24900]  INFO -- default-ubuntu: changes, it is recommended to add version = "..." constraints to the
+I, [2018-10-11T14:21:05.356471 #24900]  INFO -- default-ubuntu: corresponding provider blocks in configuration, with the constraint strings
+I, [2018-10-11T14:21:05.356512 #24900]  INFO -- default-ubuntu: suggested below.
+I, [2018-10-11T14:21:05.356547 #24900]  INFO -- default-ubuntu: 
+I, [2018-10-11T14:21:05.362322 #24900]  INFO -- default-ubuntu: * provider.aws: version = "~> 1.40"
+I, [2018-10-11T14:21:05.362382 #24900]  INFO -- default-ubuntu: * provider.random: version = "~> 2.0"
+I, [2018-10-11T14:21:05.362410 #24900]  INFO -- default-ubuntu: 
+I, [2018-10-11T14:21:05.362433 #24900]  INFO -- default-ubuntu: [0m[1m[32mTerraform has been successfully initialized![0m[32m[0m
+W, [2018-10-11T14:21:05.362636 #24900]  WARN -- default-ubuntu: Running command `terraform workspace select kitchen-terraform-default-ubuntu` in directory /Users/denislavdenov/Downloads/ec2module
+W, [2018-10-11T14:21:05.414060 #24900]  WARN -- default-ubuntu: Running command `terraform destroy -auto-approve -lock=true -lock-timeout=0s -input=false  -parallelism=10 -refresh=true  ` in directory /Users/denislavdenov/Downloads/ec2module
+I, [2018-10-11T14:21:05.945151 #24900]  INFO -- default-ubuntu: [0m[1mrandom_pet.names: Refreshing state... (ID: nicely-routinely-proven-barnacle)[0m
+I, [2018-10-11T14:21:08.375480 #24900]  INFO -- default-ubuntu: [0m[1maws_key_pair.training: Refreshing state... (ID: denis)[0m
+I, [2018-10-11T14:21:09.664407 #24900]  INFO -- default-ubuntu: [0m[1maws_instance.example: Refreshing state... (ID: i-0b4c3e08207d3a767)[0m
+I, [2018-10-11T14:21:18.683213 #24900]  INFO -- default-ubuntu: [0m[1mmodule.servers.aws_instance.example: Destroying... (ID: i-0b4c3e08207d3a767)[0m[0m
+I, [2018-10-11T14:21:28.686153 #24900]  INFO -- default-ubuntu: [0m[1mmodule.servers.aws_instance.example: Still destroying... (ID: i-0b4c3e08207d3a767, 10s elapsed)[0m[0m
+I, [2018-10-11T14:21:38.686335 #24900]  INFO -- default-ubuntu: [0m[1mmodule.servers.aws_instance.example: Still destroying... (ID: i-0b4c3e08207d3a767, 20s elapsed)[0m[0m
+I, [2018-10-11T14:21:48.688159 #24900]  INFO -- default-ubuntu: [0m[1mmodule.servers.aws_instance.example: Still destroying... (ID: i-0b4c3e08207d3a767, 30s elapsed)[0m[0m
+I, [2018-10-11T14:21:58.689587 #24900]  INFO -- default-ubuntu: [0m[1mmodule.servers.aws_instance.example: Still destroying... (ID: i-0b4c3e08207d3a767, 40s elapsed)[0m[0m
+I, [2018-10-11T14:22:03.348723 #24900]  INFO -- default-ubuntu: [0m[1mmodule.servers.aws_instance.example: Destruction complete after 44s[0m[0m
+I, [2018-10-11T14:22:03.352669 #24900]  INFO -- default-ubuntu: [0m[1mmodule.servers.aws_key_pair.training: Destroying... (ID: denis)[0m[0m
+I, [2018-10-11T14:22:03.352858 #24900]  INFO -- default-ubuntu: [0m[1mmodule.servers.module.randomname.random_pet.names: Destroying... (ID: nicely-routinely-proven-barnacle)[0m[0m
+I, [2018-10-11T14:22:03.353806 #24900]  INFO -- default-ubuntu: [0m[1mmodule.servers.module.randomname.random_pet.names: Destruction complete after 0s[0m[0m
+I, [2018-10-11T14:22:03.998375 #24900]  INFO -- default-ubuntu: [0m[1mmodule.servers.aws_key_pair.training: Destruction complete after 1s[0m[0m
+I, [2018-10-11T14:22:04.003551 #24900]  INFO -- default-ubuntu: [0m[1m[32m
+I, [2018-10-11T14:22:04.003720 #24900]  INFO -- default-ubuntu: Destroy complete! Resources: 3 destroyed.[0m
+W, [2018-10-11T14:22:04.022696 #24900]  WARN -- default-ubuntu: Running command `terraform workspace select default` in directory /Users/denislavdenov/Downloads/ec2module
+I, [2018-10-11T14:22:04.064666 #24900]  INFO -- default-ubuntu: [0m[32mSwitched to workspace "default".[0m
+W, [2018-10-11T14:22:04.077053 #24900]  WARN -- default-ubuntu: Running command `terraform workspace delete kitchen-terraform-default-ubuntu` in directory /Users/denislavdenov/Downloads/ec2module
+I, [2018-10-11T14:22:04.114152 #24900]  INFO -- default-ubuntu: [0m[32mDeleted workspace "kitchen-terraform-default-ubuntu"![0m
+I, [2018-10-11T14:22:04.129117 #24900]  INFO -- default-ubuntu: Finished destroying <default-ubuntu> (0m59.18s).
