@@ -1,0 +1,29 @@
+I, [2018-09-19T10:16:51.178412 #18415]  INFO -- Kitchen: -----> Starting Kitchen (v1.23.2)
+E, [2018-09-19T10:16:51.179078 #18415] ERROR -- Kitchen: ------Exception-------
+E, [2018-09-19T10:16:51.179143 #18415] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2018-09-19T10:16:51.179231 #18415] ERROR -- Kitchen: Message: Kitchen YAML file /Users/denislavdenov/Downloads/awskt/test/integration/default/controls/.kitchen.yml does not exist.
+E, [2018-09-19T10:16:51.179265 #18415] ERROR -- Kitchen: ----------------------
+E, [2018-09-19T10:16:51.179294 #18415] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-09-19T10:16:51.179323 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2018-09-19T10:16:51.179352 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:152:in `data'
+E, [2018-09-19T10:16:51.179382 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:131:in `suites'
+E, [2018-09-19T10:16:51.179410 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2018-09-19T10:16:51.179437 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-09-19T10:16:51.179465 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/config.rb:117:in `instances'
+E, [2018-09-19T10:16:51.179517 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-09-19T10:16:51.179558 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-09-19T10:16:51.179584 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command/action.rb:35:in `block in call'
+E, [2018-09-19T10:16:51.179642 #18415] ERROR -- Kitchen: /usr/local/Cellar/ruby/2.5.1/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-09-19T10:16:51.179673 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command/action.rb:34:in `call'
+E, [2018-09-19T10:16:51.179700 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/cli.rb:52:in `perform'
+E, [2018-09-19T10:16:51.179721 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/cli.rb:193:in `block (2 levels) in <class:CLI>'
+E, [2018-09-19T10:16:51.179741 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+E, [2018-09-19T10:16:51.179760 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-09-19T10:16:51.179784 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+E, [2018-09-19T10:16:51.179804 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/thor-0.20.0/lib/thor/base.rb:466:in `start'
+E, [2018-09-19T10:16:51.179823 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-09-19T10:16:51.179896 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-09-19T10:16:51.179935 #18415] ERROR -- Kitchen: /usr/local/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/bin/kitchen:13:in `<top (required)>'
+E, [2018-09-19T10:16:51.179957 #18415] ERROR -- Kitchen: /usr/local/bin/kitchen:23:in `load'
+E, [2018-09-19T10:16:51.179976 #18415] ERROR -- Kitchen: /usr/local/bin/kitchen:23:in `<main>'
+E, [2018-09-19T10:16:51.179996 #18415] ERROR -- Kitchen: ----End Backtrace-----
