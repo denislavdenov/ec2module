@@ -2,3 +2,5 @@
 terraform.tfstate*
 variables.tf
 .DS_Store
+id_rsa
+secrets.tar
