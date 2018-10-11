@@ -1,9 +1,9 @@
-I, [2018-10-11T14:21:01.150333 #24900]  INFO -- Kitchen: -----> Starting Kitchen (v1.23.2)
-W, [2018-10-11T14:21:01.943715 #24900]  WARN -- Kitchen: Running command `terraform version` in directory /Users/denislavdenov/Downloads/ec2module
-I, [2018-10-11T14:21:01.977491 #24900]  INFO -- Kitchen: Terraform v0.11.8
-I, [2018-10-11T14:21:02.309049 #24900]  INFO -- Kitchen: + provider.aws v1.40.0
-I, [2018-10-11T14:21:02.309172 #24900]  INFO -- Kitchen: + provider.random v2.0.0
-I, [2018-10-11T14:21:02.309207 #24900]  INFO -- Kitchen: 
-W, [2018-10-11T14:21:02.325239 #24900]  WARN -- Kitchen: Terraform v0.11.8 is supported
-I, [2018-10-11T14:21:04.950266 #24900]  INFO -- Kitchen: -----> Destroying <default-ubuntu>...
-I, [2018-10-11T14:22:04.129579 #24900]  INFO -- Kitchen: -----> Kitchen is finished. (1m2.98s)
+I, [2018-10-11T14:52:59.655752 #25633]  INFO -- Kitchen: -----> Starting Kitchen (v1.23.2)
+W, [2018-10-11T14:53:00.730901 #25633]  WARN -- Kitchen: Running command `terraform version` in directory /Users/denislavdenov/Downloads/ec2module
+I, [2018-10-11T14:53:00.767321 #25633]  INFO -- Kitchen: Terraform v0.11.8
+I, [2018-10-11T14:53:01.122327 #25633]  INFO -- Kitchen: + provider.aws v1.40.0
+I, [2018-10-11T14:53:01.122470 #25633]  INFO -- Kitchen: + provider.random v2.0.0
+I, [2018-10-11T14:53:01.122627 #25633]  INFO -- Kitchen: 
+W, [2018-10-11T14:53:01.137039 #25633]  WARN -- Kitchen: Terraform v0.11.8 is supported
+I, [2018-10-11T14:53:04.190313 #25633]  INFO -- Kitchen: -----> Destroying <default-ubuntu>...
+I, [2018-10-11T14:53:05.262955 #25633]  INFO -- Kitchen: -----> Kitchen is finished. (0m5.61s)
