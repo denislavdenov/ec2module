@@ -23,6 +23,10 @@ resource "aws_instance" "example" {
   key_name               = "${aws_key_pair.training.id}"
   vpc_security_group_ids = ["${var.security_group_id}"]
 
+  provisioner "local-exec" {
+    command = "echo Hello"
+  }
+
   connection {
     user        = "ubuntu"
     private_key = "${file("id_rsa")}"
